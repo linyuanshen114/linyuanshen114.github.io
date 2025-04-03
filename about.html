@@ -13,22 +13,24 @@ header-img: "img/post-bg-rwd.jpg"
 
 <!-- English Version -->
 <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
+    <blockquote><p>Look on my works, ye Mighty, and despair!</p></blockquote>
 
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
-
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
+    <p>Hi, I'm <strong>Yuanshen Lin</strong>, a senior undergraduate student in <strong>the Wu Wenjun Honors Program at the School of Mathematical Sciences, Shanghai Jiao Tong University</strong>, where I conduct research in computational mathematics advised by <strong>Prof. Zhenli Xu</strong>. My academic journey has been driven by a strong interest in <strong> computational mathematics, machine learning and its real-world applications</strong>.</p>
     
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
+    <p>In my free time, I like to listen to music, which helps me stay focused and creative.</p>
 
-    <h5>Talks</h5>
+    <p>Feel free to check out my work and get in touch!</p>
+
+    <h5>Preprints</h5>
 
     <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
+    <li><strong>Y. Lin</strong>, Z. Xu, Y. Zhang and Q. Zhou, <a href="https://arxiv.org/abs/2503.03183">Weighted balanced truncation method for approximating kernel functions by exponentials.</a></li>
+    </ul>
+
+    <h5>Software Packages</h5>
+
+    <ul>
+    <li><a href="https://github.com/linyuanshen114/VP-WBT">VP-WBT</a>, a kernel-independent SOE/SOG approximation software with VP-sum and WBT. </li>
     </ul>
 </div>
 
@@ -85,11 +87,15 @@ header-img: "img/post-bg-rwd.jpg"
 
     // handle select change
     function onLanChange(index){
-        if(index == 1){
-            window.location.hash = "#zh"
-        }else{
+        if(index == 0){
             window.location.hash = "#en"
+        }else{
+            window.location.hash = "#zh"
         }
+    }
+
+    if (!window.location.hash) {
+        window.location.hash = "#en";
     }
 
     // init
