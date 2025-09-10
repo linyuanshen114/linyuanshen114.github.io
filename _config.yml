@@ -104,10 +104,7 @@ friends: [
         title: "高性能计算",
         href: "https://www.x-mol.com/groups/HPC_Lab"
     },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "张磊课题组",
+        href: "http://faculty.bicmr.pku.edu.cn/~zhanglei/"
     }
 ]
