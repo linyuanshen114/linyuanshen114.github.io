@@ -97,6 +97,10 @@ service-worker: true
 
 # Friends
 friends: [
+  {
+    title: "BICMR",
+    href: "https://bicmr.pku.edu.cn/"
+  },
     {
         title: "SMS SJTU",
         href: "http://math.sjtu.edu.cn"
